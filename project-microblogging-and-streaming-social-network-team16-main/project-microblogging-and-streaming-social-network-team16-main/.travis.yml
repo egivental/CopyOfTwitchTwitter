@@ -1,0 +1,36 @@
+language: node_js
+node_js:
+  - 14.15.4
+cache:
+  directories:
+    - node_modules
+addons:
+  chrome: stable
+jobs:
+  include:
+    - stage: Test, Lint, and Validate
+      name: Test ReactJS Frontend
+      script:
+          - Xvfb :99 -ac -screen 0 1280x1024x24 &
+          - export DISPLAY=:99
+          - wget -N https://chromedriver.storage.googleapis.com/80.0.3987.106/chromedriver_linux64.zip -P ~/
+          - unzip ~/chromedriver_linux64.zip -d ~/
+          - rm ~/chromedriver_linux64.zip
+          - sudo mv -f ~/chromedriver /usr/local/share/
+          - sudo chmod +x /usr/local/share/chromedriver
+          - sudo ln -s /usr/local/share/chromedriver /usr/local/bin/chromedriver
+          - yarn install
+          - yarn reacttest --coverage
+    - name: Test Express API Backend Server
+      script:
+          - yarn install
+          - yarn apitest  --coverage
+    - name: Linting 
+      script:
+          - yarn install
+          - yarn lint
+    - name: Validate CSS
+      script:
+          - yarn install
+          - yarn css
+

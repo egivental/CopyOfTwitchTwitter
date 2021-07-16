@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contacts matches snapshot 1`] = `
+<div>
+  <h1>
+    Contacts
+  </h1>
+  <div
+    className="card-deck"
+  >
+    <div
+      className="card"
+    >
+      <div
+        className="card-body"
+      >
+        <div
+          className="card-title h5"
+        >
+          Followers
+        </div>
+        No followers.
+      </div>
+    </div>
+    <div
+      className="card"
+    >
+      <div
+        className="card-body"
+      >
+        <div
+          className="card-title h5"
+        >
+          Following
+        </div>
+        Not following anyone.
+      </div>
+    </div>
+    <div
+      className="card"
+    >
+      <div
+        className="card-body"
+      >
+        <div
+          className="card-title h5"
+        >
+          Other Users
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            className="form-label"
+            htmlFor="searchUsers"
+          >
+            Search
+          </label>
+          <input
+            className="form-control"
+            id="searchUsers"
+            onChange={[Function]}
+            placeholder="Search..."
+            type="text"
+            value=""
+          />
+          <small
+            className="text-muted form-text"
+          >
+            Filter users by searching.
+          </small>
+        </div>
+        No other users.
+      </div>
+    </div>
+  </div>
+</div>
+`;

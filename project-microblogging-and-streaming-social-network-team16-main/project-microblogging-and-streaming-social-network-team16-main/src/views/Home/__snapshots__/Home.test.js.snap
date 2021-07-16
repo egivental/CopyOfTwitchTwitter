@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home matches snapshot 1`] = `
+<div>
+  <div
+    id="title"
+    style={
+      Object {
+        "marginBottom": "40px",
+      }
+    }
+  >
+    <h1>
+      Home
+    </h1>
+  </div>
+  <div
+    className="card border-secondary"
+  >
+    <div
+      className="card-body"
+    >
+      <div
+        className="card-title h5"
+      >
+        Welcome
+      </div>
+      <p
+        className="card-text"
+      >
+        To get started making posts to share, just sign up or sign in!
+      </p>
+      <a
+        href="/signin"
+        style={
+          Object {
+            "marginRight": "10px",
+          }
+        }
+      >
+        Sign In
+      </a>
+      <a
+        href="/signup"
+      >
+        Sign Up
+      </a>
+    </div>
+  </div>
+</div>
+`;

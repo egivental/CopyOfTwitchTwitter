@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menubar matches snapshot 1`] = `
+<nav
+  className="navbar navbar-expand-lg navbar-light bg-light"
+>
+  <a
+    className="navbar-brand"
+    href="/home"
+  >
+    <strong>
+      ABE Twitter
+    </strong>
+  </a>
+  <button
+    aria-label="Toggle navigation"
+    className="navbar-toggler collapsed"
+    onClick={[Function]}
+    type="button"
+  >
+    <span
+      className="navbar-toggler-icon"
+    />
+  </button>
+  <div
+    aria-expanded={null}
+    className="navbar-collapse collapse"
+    id="basic-navbar-nav"
+  >
+    <div
+      className="ml-auto navbar-nav"
+      onKeyDown={[Function]}
+    >
+      <a
+        className="nav-link"
+        data-rb-event-key="/signup"
+        href="/signup"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+      >
+        Sign Up
+      </a>
+      <a
+        className="nav-link"
+        data-rb-event-key="/signin"
+        href="/signin"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+      >
+        Sign In
+      </a>
+    </div>
+  </div>
+</nav>
+`;

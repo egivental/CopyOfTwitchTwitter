@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignUp matches snapshot 1`] = `
+<div>
+  <div
+    id="title"
+    style={
+      Object {
+        "marginBottom": "40px",
+      }
+    }
+  >
+    <h1>
+      Sign Up
+    </h1>
+  </div>
+  <form
+    className=""
+    onSubmit={[Function]}
+    style={
+      Object {
+        "width": "50%",
+      }
+    }
+  >
+    <div
+      className="form-group"
+    >
+      <label
+        className="form-label"
+        htmlFor="formBasicUsername"
+      >
+        Username
+      </label>
+      <input
+        className="form-control"
+        id="formBasicUsername"
+        name="username"
+        placeholder="Enter username"
+      />
+      <small
+        className="text-muted form-text"
+      >
+        The username you wish to have. This will be your @username handle. No spaces allowed.
+      </small>
+    </div>
+    <div
+      className="form-group"
+    >
+      <label
+        className="form-label"
+        htmlFor="formBasicPassword"
+      >
+        Password
+      </label>
+      <input
+        className="form-control"
+        id="formBasicPassword"
+        name="password"
+        placeholder="Enter password"
+        type="password"
+      />
+      <small
+        className="text-muted form-text"
+      >
+        The password for your account.
+      </small>
+    </div>
+    <button
+      className="btn btn-primary"
+      disabled={false}
+      type="submit"
+    >
+      Sign Up
+    </button>
+  </form>
+</div>
+`;

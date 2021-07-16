@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Messages matches snapshot 1`] = `
+<div>
+  <div
+    id="title"
+    style={
+      Object {
+        "marginBottom": "40px",
+      }
+    }
+  >
+    <h1>
+      Messages
+    </h1>
+  </div>
+  Select a contact to direct message:
+   
+  <div
+    className="dropdown"
+    onKeyDown={[Function]}
+    style={
+      Object {
+        "marginBottom": "20px",
+      }
+    }
+  >
+    <button
+      aria-expanded={false}
+      aria-haspopup={true}
+      className="dropdown-toggle btn btn-secondary"
+      disabled={false}
+      id="dropdown-basic"
+      onClick={[Function]}
+      type="button"
+    >
+      None
+    </button>
+  </div>
+  <div>
+    <hr />
+    No user selected to message with.
+  </div>
+</div>
+`;

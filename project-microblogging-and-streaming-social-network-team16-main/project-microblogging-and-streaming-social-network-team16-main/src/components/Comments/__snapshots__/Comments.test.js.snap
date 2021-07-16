@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Comments matches snapshot 1`] = `
+<div>
+  <h5>
+    Comments
+  </h5>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-1"
+    />
+    <div
+      className="col"
+    >
+      <div
+        className="mb-4 card"
+        style={
+          Object {
+            "fontSize": "12px",
+          }
+        }
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-md-auto"
+          >
+            <img
+              alt="40x40"
+              className="m-3"
+              height={40}
+              src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+              width={40}
+            />
+          </div>
+          <div
+            className="col"
+          >
+            <div
+              className="card-body"
+            >
+              <div
+                className="card-title h5"
+                style={
+                  Object {
+                    "fontSize": "14px",
+                  }
+                }
+              >
+                Create a new Comment
+              </div>
+              <div
+                className="row"
+              >
+                <div
+                  className="col"
+                >
+                  <textarea
+                    className="form-control"
+                    id="-comment-new"
+                  />
+                </div>
+                <div
+                  className="col-md-auto"
+                >
+                  <button
+                    className="btn btn-primary btn-sm"
+                    disabled={false}
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

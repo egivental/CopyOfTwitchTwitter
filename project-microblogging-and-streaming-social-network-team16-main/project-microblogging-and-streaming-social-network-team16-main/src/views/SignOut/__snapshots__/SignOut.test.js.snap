@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignOut matches snapshot 1`] = `
+<div>
+  <div
+    id="title"
+    style={
+      Object {
+        "marginBottom": "40px",
+      }
+    }
+  >
+    <h1>
+      Sign Out
+    </h1>
+  </div>
+  <p>
+    Signing out...
+  </p>
+</div>
+`;
