@@ -9,4 +9,4 @@ Weeks 3-5: Backend API + MongoDb Database + Initial Testing (See server folder w
 
 Weeks 6-8: React Frontend + integration testing (see src folder within package)
 
-Weeks 9-10: Frontend touchups + extra features (user blocks, message hides, follow suggestion, etc.)
+Weeks 9-10: Heroku deployment + Frontend touchups + extra features (user blocks, message hides, follow suggestion, etc.)
