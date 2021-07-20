@@ -10,3 +10,5 @@ Weeks 3-5: Backend API + MongoDb Database + Initial Testing (See server folder w
 Weeks 6-8: React Frontend + integration testing (see src folder within package)
 
 Weeks 9-10: Heroku deployment + Frontend touchups + extra features (user blocks, message hides, follow suggestion, etc.)
+
+The project used Travis CI for testing and followed the airbnb lint guidelines with >50% line test coverage.
